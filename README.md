@@ -106,15 +106,14 @@ int main(){
 	return 0;
 }
 ```
-![Screenshot from 2023-08-20 22-15-08](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/e16a4845-457c-4efe-9507-50c728826314)
+![Screenshot from 2023-08-20 19-54-45](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/5160f5dc-0d92-42c1-9383-2ddc4770535b)
 
 Using the gcc compiler, we compiled the program to get the output.
 
 `gcc sum1ton.c`
 `.\a.out`
 
-![Screenshot from 2023-08-20 22-14-46](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/30a0ce9a-898f-4744-bc83-080b12d812d9)
-
+![Screenshot from 2023-08-20 19-55-25](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/7e1ddd07-05ee-4f07-bf76-8f05ce31b79b)
 
 ## RISCV GCC Compiler and Dissemble
 
