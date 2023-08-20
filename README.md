@@ -93,7 +93,7 @@ https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/run.sh
 ## C Program
 We wrote a C program for calculating the sum from 1 to n using a text editor, leafpad.
 
-`leafpad sumton.c`
+`leafpad sum1ton.c`
 ``` c
 #include<stdio.h>
 
@@ -106,11 +106,14 @@ int main(){
 	return 0;
 }
 ```
+![Screenshot from 2023-08-20 22-15-08](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/e16a4845-457c-4efe-9507-50c728826314)
 
 Using the gcc compiler, we compiled the program to get the output.
 
-`gcc sumton.c`
+`gcc sum1ton.c`
 `.\a.out`
+
+![Screenshot from 2023-08-20 22-14-46](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/30a0ce9a-898f-4744-bc83-080b12d812d9)
 
 
 ## RISCV GCC Compiler and Dissemble
