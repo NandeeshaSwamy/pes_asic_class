@@ -132,8 +132,11 @@ In order to view the main section, type
 
 Here, since we used -O1 optimisation, the number of instructions are 15.
 
+![Screenshot from 2023-08-20 21-16-47](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/61d6ec00-0ea2-49fa-af58-4f08a9297197)
 
 When we use -Ofast optimisation, we can see that the number of instructions have been reduced to 12.
+
+![Screenshot from 2023-08-20 21-20-30](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/bf6d2202-d05d-42dc-8335-6d3221d27e59)
 
 - -Onumber : level of optimisation required
 - -mabi : specifies the ABI (Application Binary Interface) to be used during code generation according to the requirements
@@ -160,11 +163,13 @@ For different instances,
 
 `spike pk sum1ton.o` is used to check whether the instructions produced are right to give the correct output.
 
+![Screenshot from 2023-08-20 21-22-48](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/96053eaf-0ea6-42f6-9deb-396e1b4ff7c7)
 
 `spike -d pk sum1ton.c` is used for debugging.
 
 The contents of the registers can also be viewed.
 
+![Screenshot from 2023-08-20 21-43-23](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/2db681f1-d0cf-47a6-a38d-22bee6813bf7)
 
 - press ENTER : to show the first line and successive ENTER to show successive lines
 - reg 0 a2 : to check content of register a2 0th core
@@ -197,6 +202,8 @@ int main(){
 	return 0;
 }
 ```
+![Screenshot from 2023-08-20 22-11-56](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/c33e952f-3a79-4665-a240-00a2128597bc)
+![Screenshot from 2023-08-20 22-11-30](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/b6418cf7-5ede-4cf7-8ad0-fb2ae02b9dfe)
 
 We wrote a C program that shows the maximum and minimum values of 64bit signed numbers.
 ``` c
@@ -211,3 +218,5 @@ int main(){
 	return 0;
 }
 ```
+![Screenshot from 2023-08-20 22-15-08](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/31cca5f3-1466-4548-a77d-73baf1c684a0)
+![Screenshot from 2023-08-20 22-14-46](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/0642867f-ccb3-4ea6-8fbe-30b88c2a9bd5)
