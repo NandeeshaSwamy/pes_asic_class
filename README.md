@@ -32,9 +32,8 @@ https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/run.sh
   - RISC architectures simplify the instruction set by focusing on a smaller set of instructions, each of which can be executed in a single clock cycle. This approach usually leads to faster execution of individual instructions. 
 
 <img width="536" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/e31d7c49-7160-443f-b73f-585cde8f3419">
-</details>
 
-<details>
+
 <summary>From Apps to Hardware</summary>
 
 1. **Apps:** Application software, often referred to simply as "applications" or "apps," is a type of computer software that is designed to perform specific tasks or functions for end-users.
@@ -48,9 +47,8 @@ https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/run.sh
 6. **RTL:** RTL serves as an abstraction level in the design process that represents the behavior of a digital circuit in terms of registers and the operations that transfer data between them.
 
  7. **Hardware:** Hardware refers to the physical components of a computer system or any electronic device. It encompasses all the tangible parts that make up a computing or electronic device and enable it to perform various tasks.
-</details>
 
-<details>
+
 <summary>Detail Description of Course Content</summary>
 
 **Pseudo Instructions:** Pseudo-instructions are used to simplify programming, improve code readability, and reduce the number of explicit instructions a programmer needs to write. They are especially useful for common programming patterns that involve multiple instructions.
@@ -98,9 +96,8 @@ Using the gcc compiler, we compiled the program to get the output.
 ![Screenshot from 2023-08-20 19-54-45](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/5160f5dc-0d92-42c1-9383-2ddc4770535b)
 
 ![Screenshot from 2023-08-20 19-55-25](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/7e1ddd07-05ee-4f07-bf76-8f05ce31b79b)
-</details>
 
-<details>
+
 <summary>RISCV GCC Compiler and Dissemble</summary>
 
 Using the riscv gcc compiler, we compiled the C program.
@@ -143,9 +140,8 @@ For different instances,
 - press ```n``` to search next occurance
 - press ```N``` to search for previous occurance. 
 - use ```esc :q``` to quit
-</details>
 
-<details>
+
 <summary>Spike Simulation and Debug</summary>
 
 `spike pk sum1ton.o` is used to check whether the instructions produced are right to give the correct output.
@@ -171,9 +167,8 @@ The contents of the registers can also be viewed.
 	
 - Unsigned numbers, also known as non-negative numbers, are numerical values that represent magnitudes without indicating direction or sign.
 - Range: [0, (2^n)-1 ]
-</details>
 
-<details>
+
 <summary>Signed Numbers</summary>
 	
 - Signed numbers are numerical values that can represent both positive and negative magnitudes, along with zero.
