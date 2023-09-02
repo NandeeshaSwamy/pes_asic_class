@@ -26,11 +26,11 @@ https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/run.sh
 <details> 
 <summary>Introduction to Basic Keywords</summary>
 	
-- **ISA (Instruction Set Archhitecture)**
+**ISA (Instruction Set Archhitecture)**
   - ISA defines the interface between a computer's hardware and its software, specifically how the processor and its components interact with the software instructions that drive the execution of tasks.
   - It encompasses a set of instructions, addressing modes, data types, registers, memory organization, and the mechanisms for executing and managing instructions.
 
-- **RISC-V (Reduced Instruction Set Computing - Five)**.
+**RISC-V (Reduced Instruction Set Computing - Five)**.
   - It is an open-source Instruction Set Architecture (ISA) that has gained significant attention and adoption in the world of computer architecture and semiconductor design.
   - RISC architectures simplify the instruction set by focusing on a smaller set of instructions, each of which can be executed in a single clock cycle. This approach usually leads to faster execution of individual instructions. 
 
@@ -53,7 +53,7 @@ https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/run.sh
  7. **Hardware:** Hardware refers to the physical components of a computer system or any electronic device. It encompasses all the tangible parts that make up a computing or electronic device and enable it to perform various tasks.
 
 
-- **Detail Description of Course Content**
+**Detail Description of Course Content**
 
 **Pseudo Instructions:** Pseudo-instructions are used to simplify programming, improve code readability, and reduce the number of explicit instructions a programmer needs to write. They are especially useful for common programming patterns that involve multiple instructions.
 `Ex: li, mv`.
@@ -76,13 +76,13 @@ https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/run.sh
 <details>
 <summary>Integer Number Representation </summary>
 
-- **Unsigned Numbers**
+**Unsigned Numbers**
 	
 - Unsigned numbers, also known as non-negative numbers, are numerical values that represent magnitudes without indicating direction or sign.
 - Range: [0, (2^n)-1 ]
 
 
-- **Signed Numbers**
+**Signed Numbers**
 	
 - Signed numbers are numerical values that can represent both positive and negative magnitudes, along with zero.
 - Range : Positive : [0 , 2^(n-1)-1]
@@ -182,7 +182,7 @@ The contents of the registers can also be viewed.
 </details>
 
 <details>
-<summary>Labwork</summary>
+<summary>Labwork-signed and unsigned numbers</summary>
 
 We wrote a C program that shows the maximum and minimum values of 64bit unsigned numbers.
 
