@@ -18,14 +18,13 @@ https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/run.sh
 + ./run.sh
   
 ## COURSE CONTENT COVERAGE
-<details>
-<summary>DAY 1</summary> 
 
-<details>
-<summary>Theory<summary>
-<details>
+# DAY 1 
 
-## Introduction to Basic Keywords
+## Theory
+
+<details> 
+<summary></summary>Introduction to Basic Keywords</summary>
 	
 - **ISA (Instruction Set Archhitecture)**
   - ISA defines the interface between a computer's hardware and its software, specifically how the processor and its components interact with the software instructions that drive the execution of tasks.
@@ -36,8 +35,9 @@ https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/run.sh
   - RISC architectures simplify the instruction set by focusing on a smaller set of instructions, each of which can be executed in a single clock cycle. This approach usually leads to faster execution of individual instructions. 
 
 <img width="536" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/e31d7c49-7160-443f-b73f-585cde8f3419">
+</details>
 
-
+<details>
 <summary>From Apps to Hardware</summary>
 
 1. **Apps:** Application software, often referred to simply as "applications" or "apps," is a type of computer software that is designed to perform specific tasks or functions for end-users.
@@ -53,7 +53,7 @@ https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/run.sh
  7. **Hardware:** Hardware refers to the physical components of a computer system or any electronic device. It encompasses all the tangible parts that make up a computing or electronic device and enable it to perform various tasks.
 
 
-<summary>Detail Description of Course Content</summary>
+- **Detail Description of Course Content**
 
 **Pseudo Instructions:** Pseudo-instructions are used to simplify programming, improve code readability, and reduce the number of explicit instructions a programmer needs to write. They are especially useful for common programming patterns that involve multiple instructions.
 `Ex: li, mv`.
