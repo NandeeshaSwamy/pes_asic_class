@@ -18,9 +18,13 @@ https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/run.sh
 + ./run.sh
   
 # COURSE CONTENT COVERAGE
+<details>
 ## DAY 1 
 <details>
+
+<details>
 <summary>Theory<summary>
+<details>
 
 Introduction to Basic Keywords
 	
