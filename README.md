@@ -20,7 +20,6 @@ https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/run.sh
 ## COURSE CONTENT COVERAGE
 <details>
 <summary>DAY 1</summary> 
-<details>
 
 <details>
 <summary>Theory<summary>
