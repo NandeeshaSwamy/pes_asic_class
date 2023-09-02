@@ -361,17 +361,6 @@ this would generate object file `1to9_custom.o`.
 ![Screenshot from 2023-08-21 21-31-24](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/63e68a8b-35ff-4110-b90c-7145d42391e5)
 </details>
 
-
-
-
-
-
-
-
-
-
-
-
 # DAY - 3
 ## Introduction to open-source simulator iverilog
 
@@ -658,3 +647,106 @@ this would generate object file `1to9_custom.o`.
 <img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/8c1d0c7e-3da1-4ff2-91fd-bb75fc88eabd">
 
 </details>
+
+
+# DAY - 5
+## Introduction to Logic Optimizations
+
+<details>
+<summary> Combinational Logic Optimization </summary>
+	
+- **Combinational logic**
+- Combinational logic refers to logic circuits where the outputs depend only on the current inputs and not on any previous states.
+
+- **Types of Combinational Optimizations**
+- Constant Propagation
+- Boolean Logic Optimization. 
+
+</details>
+
+
+<details>
+<summary> Sequential Logic Optimization </summary>
+	
+- **Sequential Logic**
+- Sequential logic optimizations involve improving the efficiency, performance, and resource utilization of digital circuits that include memory elements like flip-flops and latches.
+
+- **Types of Sequential Optimizations**
+- Sequential Constant Propagation
+- State Optimization
+- Retiming
+- Sequential Logic cloning(Floorplan aware synthesis)
+
+</details>
+
+## Combinational Logic Optimisations
+
+<details>
+<summary> opt_check </summary>
+	
+-  gvim opt_check.v
+  
+![Screenshot from 2023-09-03 02-02-26](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/c549ce79-442a-449a-a16b-4931d14e2c4f)
+
+-  Statistics
+  
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/f81b6c38-982a-487f-a4c4-4afa2cf86a50">
+
+-  Netlist
+
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/f2d45e9a-87f4-4fd8-b670-d4bee7d06750">
+
+</details>
+
+<details>
+<summary> opt_check2 </summary>
+	
+-  gvim opt_check2.v
+  
+![Screenshot from 2023-09-03 02-02-49](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/3562abe2-4d55-4c8a-9193-51143f8b8864)
+
+-  Statistics
+  
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/02ae9ced-5e9a-4aea-b92a-bc9c6cfd6463">
+
+-  Netlist
+
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/9f964c30-fa98-48bb-bac9-fe8b18758ad7">
+
+</details>
+
+<details>
+<summary> opt_check3 </summary>
+	
+-  gvim opt_check3.v
+  
+![Screenshot from 2023-09-03 02-03-15](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/278de9dc-1054-4a2a-96e8-855283a8f830)
+
+-  Statistics
+  
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/e2a968e2-8878-496e-86d2-716de521113a">
+
+-  Netlist
+
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/a6ad0d4f-e15d-4a02-95b1-6a859559fee1">
+
+</details>
+
+<details>
+<summary> opt_check4 </summary>
+	
+-  gvim opt_check4.v
+  
+![Screenshot from 2023-09-03 02-03-25](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/51ab29e7-9fe9-429a-993f-63e15f63fdb9)
+
+-  Statistics
+  
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/f1113645-47f1-4131-ad17-852795422647">
+
+-  Netlist
+
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/4340cb4a-41b7-42ea-a6b5-760891410967">
+
+</details>
+
+
