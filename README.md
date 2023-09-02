@@ -476,7 +476,8 @@ this would generate object file `1to9_custom.o`.
 	
 - **Netlist with extra information**
 
-![Screenshot from 2023-08-31 00-11-02](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/c4e0b7a7-6e5b-4e31-97fc-14de51e9a7a8
+![Screenshot from 2023-08-31 00-11-02](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/88323a7a-055f-420b-aa93-d817571b6249)
+
 
 - **Smaller netlist**
 
