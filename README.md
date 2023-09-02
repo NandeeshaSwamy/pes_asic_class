@@ -624,11 +624,14 @@ this would generate object file `1to9_custom.o`.
 <details>
 <summary>Interesting optimisations </summary>
 
-**mult_2** 
+
+   **mult_2** 
+   
 -  gvim mult_2.v
 ![Screenshot from 2023-09-03 00-47-47](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/a2ca75c8-4f7f-4af1-a849-eefbad97ec6e)
 
 -  Statistics
+
 ![Screenshot from 2023-09-01 22-45-29](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/8d8e38b4-7d19-489f-a09e-2bde43131abc)
 
 -  Netlist
@@ -637,7 +640,8 @@ this would generate object file `1to9_custom.o`.
 
 <img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/6ff861d3-adc6-4488-9d97-0cd65eb049e5">
 
-**mult_8** 
+   **mult_8** 
+   
 -  gvim mult_8.v
 
 <img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/1c87e450-e8e8-45fd-8171-38e3f9f83e6c">
