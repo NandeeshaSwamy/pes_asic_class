@@ -24,7 +24,7 @@ https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/run.sh
 ## Theory
 
 <details> 
-<summary></summary>Introduction to Basic Keywords</summary>
+<summary>Introduction to Basic Keywords</summary>
 	
 - **ISA (Instruction Set Archhitecture)**
   - ISA defines the interface between a computer's hardware and its software, specifically how the processor and its components interact with the software instructions that drive the execution of tasks.
