@@ -362,16 +362,18 @@ this would generate object file `1to9_custom.o`.
 </details>
 
 # DAY - 3
+## Theory
 ## Introduction to open-source simulator iverilog
 
 <details>
-<summary>Introduction to iverilog design testbench</summary>
+<summary>Introduction to open-source simulator iverilog</summary>
+	**Introduction to iverilog design testbench**
 	
 - **Simulator**
   - Simulator is the tool used for simulating the design and iverilog is the tool used for this course.
   - RTL design is checked for adherence to the spec by simulating the design.
 
-- **Design**.
+- **Design**
   - Design is the actual Verilog code or set of verilog codes which has the intended functionality to meet with required specifications.
 
 - **Testbench**
