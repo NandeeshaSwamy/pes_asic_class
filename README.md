@@ -363,11 +363,11 @@ this would generate object file `1to9_custom.o`.
 
 # DAY - 3
 ## Theory
-## Introduction to open-source simulator iverilog
 
 <details>
 <summary>Introduction to open-source simulator iverilog</summary>
-	**Introduction to iverilog design testbench**
+	
+### Introduction to iverilog design testbench
 	
 - **Simulator**
   - Simulator is the tool used for simulating the design and iverilog is the tool used for this course.
