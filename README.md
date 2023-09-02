@@ -406,10 +406,12 @@ this would generate object file `1to9_custom.o`.
 <summary>Introduction to iverilog and gtkwave</summary>
 	
 - **Simulating 2:1 mux using iverilog and gtkwave**
-- **Design*
+- **Design**
+
 ![Screenshot from 2023-08-30 17-49-55](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/c7a2996b-34f3-4eb6-aed7-6828cdd3c299)
 
 - **Testbench**
+
 ![Screenshot from 2023-08-30 17-50-08](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/6769cf92-2457-4f42-8ccd-fdb7c6b221f1)
 
 
@@ -452,16 +454,19 @@ this would generate object file `1to9_custom.o`.
 <summary>Lab-1</summary>
 	
 - **Invoking yosys**
+
 ![Screenshot from 2023-08-30 22-38-35](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/acd4c2cf-1375-47b3-99e1-fbf9c25c1a64)
 
 
 - **Synthesizing 2:1 mux**
+
 ![Screenshot from 2023-08-30 22-49-34](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/50138810-e5a7-4482-9ef6-35e7db98445f)
 
 ![Screenshot from 2023-08-30 22-50-48](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/e8f784db-e1b3-4237-9279-9bc1d4b24c1c)
 
 
 - **Synthesis result**
+
 ![Screenshot from 2023-08-30 22-52-24](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/4017a0a8-8fae-4d50-ab71-b3be916acde1)
 
 </details>
@@ -470,9 +475,11 @@ this would generate object file `1to9_custom.o`.
 <summary>Lab-2</summary>
 	
 - **Netlist with extra information**
+
 ![Screenshot from 2023-08-31 00-11-02](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/c4e0b7a7-6e5b-4e31-97fc-14de51e9a7a8
 
 - **Smaller netlist**
+
 ![Screenshot from 2023-08-31 00-11-52](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/fc1db078-66e4-4b93-884f-0d498dff55d5)
 
 </details>
