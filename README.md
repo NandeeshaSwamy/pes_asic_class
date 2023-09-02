@@ -492,6 +492,7 @@ this would generate object file `1to9_custom.o`.
 <summary> Introduction to dot .lib </summary>
 
 - **Contents in .lib file**
+
 ![Screenshot from 2023-09-03 00-02-09](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/256f4346-5114-4fd6-99ec-a0296c3f0323)
 
 - Frst line the .lib file contains
@@ -537,6 +538,7 @@ this would generate object file `1to9_custom.o`.
 <img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/1bd7dda1-37e5-43f3-8854-ae3f4f9b5626">
 
 - Netlist
+
 ![Screenshot from 2023-08-31 22-57-05](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/869f01d5-08e5-4ca3-b8ea-226c390c15ec)
 
 </details>
@@ -566,6 +568,7 @@ this would generate object file `1to9_custom.o`.
 -  Else, on positive edge of the clock, the stored value is updated at the output.
   
 + `gvim dff_async_set.v`
+
 ![Screenshot from 2023-09-03 00-30-21](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/ad00e3d7-c6ca-4ef3-ac1f-63e6de402ebc)
 
 
@@ -573,7 +576,8 @@ this would generate object file `1to9_custom.o`.
 -  When the reset is high on the positive edge of the clock, the output of the flip-flop is forced to 0.
 -  Else, on the positive edge of the clock, the stored value is updated at the output.
   
-+ `gvim dff_syncres.v` 
++ `gvim dff_syncres.v`
+
 ![Screenshot from 2023-09-03 00-29-37](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/246ff733-1c02-411d-abd7-4a3d36e97997)
 
 **D Flip-Flop with Asynchronous Reset and Synchronous Reset** 
