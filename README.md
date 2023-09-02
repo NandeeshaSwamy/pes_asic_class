@@ -73,6 +73,23 @@ https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/run.sh
 - The stack pointer is a register used by a program to keep track of the current position of the program's execution on the call stack. 
 </details>
 
+<details>
+<summary>Integer Number Representation </summary>
+
+- **Unsigned Numbers**
+	
+- Unsigned numbers, also known as non-negative numbers, are numerical values that represent magnitudes without indicating direction or sign.
+- Range: [0, (2^n)-1 ]
+
+
+- **Signed Numbers**
+	
+- Signed numbers are numerical values that can represent both positive and negative magnitudes, along with zero.
+- Range : Positive : [0 , 2^(n-1)-1]
+          Negative : [-1 to 2^(n-1)]
+  
+</details>
+
 ## Labwork for RISCV Toolchain
 <details>
 <summary>C Program</summary>
@@ -162,22 +179,6 @@ The contents of the registers can also be viewed.
 - press ENTER : to show the first line and successive ENTER to show successive lines
 - reg 0 a2 : to check content of register a2 0th core
 - q : to quit the debug process
-</details>
-
-## Integer Number Representation 
-
-<details>
-<summary>Unsigned Numbers</summary>
-	
-- Unsigned numbers, also known as non-negative numbers, are numerical values that represent magnitudes without indicating direction or sign.
-- Range: [0, (2^n)-1 ]
-
-
-<summary>Signed Numbers</summary>
-	
-- Signed numbers are numerical values that can represent both positive and negative magnitudes, along with zero.
-- Range : Positive : [0 , 2^(n-1)-1]
-          Negative : [-1 to 2^(n-1)]
 </details>
 
 <details>
