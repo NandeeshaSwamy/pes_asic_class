@@ -21,9 +21,9 @@ https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/run.sh
 <details>
 <summary>DAY 1</summary> 
 
-<details>
-<summary>Theory<summary>
-<details>
+	<details>
+	<summary>Theory<summary>
+	<details>
 
 ## Introduction to Basic Keywords
 	
