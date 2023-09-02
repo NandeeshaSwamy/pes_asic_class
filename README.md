@@ -372,24 +372,271 @@ this would generate object file `1to9_custom.o`.
 
 
 
+# DAY - 3
+## Introduction to open-source simulator iverilog
+
+<details>
+<summary>Introduction to iverilog design testbench</summary>
+	
+- **Simulator**
+  - Simulator is the tool used for simulating the design and iverilog is the tool used for this course.
+  - RTL design is checked for adherence to the spec by simulating the design.
+
+- **Design**.
+  - Design is the actual Verilog code or set of verilog codes which has the intended functionality to meet with required specifications.
+
+- **Testbench**
+  - Testbench is the setup to apply stimulus(test_vectors) to the design to check its functionality.
+<img width="600" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/eb806b04-e6c0-4b03-8214-80cf0183ad76">
+
+- **How simulator works?**.
+  - simulator looks for the changes on the input signals.
+  - Upon changes to the input the output is evaluated.
+ 
+- **GTKWave**
+  - Used for viewing the simulated waveforms.
+    
+- **iverilog based simulation flow**
+<img width="600" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/0bbdc2e2-0b2a-4b26-8ed0-7eae4c7e3bf6">
+</details>
+
+## Labs using iverilog and gtkwave
+
+<details>
+<summary>Introduction to iverilog and gtkwave</summary>
+	
+- **Simulating 2:1 mux using iverilog and gtkwave**
+- **Design*
+![Screenshot from 2023-08-30 17-49-55](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/c7a2996b-34f3-4eb6-aed7-6828cdd3c299)
+
+- **Testbench**
+![Screenshot from 2023-08-30 17-50-08](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/6769cf92-2457-4f42-8ccd-fdb7c6b221f1)
 
 
+- **Simulated waveform in gtkwave**
+![Screenshot from 2023-08-30 17-48-10](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/ce7c54b0-164f-47d6-a7e2-5f7fa0a61fbc)
 
 
+</details>
+
+<details>
+<summary>Introduction to yosys and logic synthesis </summary>
+
+ <img width="600" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/d35aae33-f873-4e82-a052-b111a9f6d733">
+ 
+- **Synthesizer**
+- A tool used for converting the RTL to netlist.
+- Yosys is the synthesizer tool used in this course.
+
+- **Synthesis**
+- RTL to Gate level translation.
+- The design is converted into gates and the connections are made between the gates.
+- This is given out as a file called netlist.
+
+- **What is .lib?**
+- Collection of logic modules.
+- Includes basic logic gates like AND, OR, NOT,etc.
+- Different flavours of same gate.
+
+- **Faster cells vs slow cells**
+- load in digital logic circuit-> Capacitance
+- Faster the charging/discharging of capacitance -> lesser the cell delay
+  	- to charge/discharge the capacitance fast, we need transistors capable of sourcing more current.
+  	- Wider transistors -> Low Delay -> More area and power as well.
+  	- Narrow transistors -> More delay -> Less area and power
+  	- Faster cells do not come free, they come at penalty of area and power.
+</details>
+
+## Labs using Yosys and Sky130 PDKs
+<details>
+<summary>Lab-1</summary>
+	
+- **Invoking yosys**
+![Screenshot from 2023-08-30 22-38-35](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/acd4c2cf-1375-47b3-99e1-fbf9c25c1a64)
 
 
+- **Synthesizing 2:1 mux**
+![Screenshot from 2023-08-30 22-49-34](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/50138810-e5a7-4482-9ef6-35e7db98445f)
+
+![Screenshot from 2023-08-30 22-50-48](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/e8f784db-e1b3-4237-9279-9bc1d4b24c1c)
 
 
+- **Synthesis result**
+![Screenshot from 2023-08-30 22-52-24](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/4017a0a8-8fae-4d50-ab71-b3be916acde1)
+
+</details>
+
+<details>
+<summary>Lab-2</summary>
+	
+- **Netlist with extra information**
+![Screenshot from 2023-08-31 00-11-02](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/c4e0b7a7-6e5b-4e31-97fc-14de51e9a7a8
+
+- **Smaller netlist**
+![Screenshot from 2023-08-31 00-11-52](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/fc1db078-66e4-4b93-884f-0d498dff55d5)
+
+</details>
+
+# DAY - 4
+## Introduction to timing .libs
+
+<details>
+<summary> Introduction to dot .lib </summary>
+
+- **Contents in .lib file**
+![Screenshot from 2023-09-03 00-02-09](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/256f4346-5114-4fd6-99ec-a0296c3f0323)
+
+- Frst line the .lib file contains
+	- tt : indicates variations due to process and here it indicates Typical Process.
+  	- 025C : indicates the variations due to temperatures where the silicon will be used.
+  	- 1v80 : indicates the variations due to the voltage levels where the silicon will be incorporated.
+
+- **Various parameters**
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/b7527017-3e60-4c79-a5a8-3612c8555dd7">
+
+- **Power consumption and area comparison**
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/a6dc1db5-f6ab-4d84-8cab-7c6062e2a6b6">
+
+</details>
+
+## Hierarchical vs Flat Synthesis
+<details>
+<summary> Hierarchical Synthesis Flat Synthesis </summary>
+
+- **Hierarchical Synthesis** - Hierarchical synthesis is an approach in digital design and logic synthesis where complex designs are broken down into smaller, more manageable modules or sub-circuits, and each module is synthesized individually. These synthesized modules are then integrated back into the overall design hierarchy. This approach helps manage the complexity of large designs and allows designers to work on different parts of the design independently.
+- Here we use mutiple module.v and invoke yosys
+![Screenshot from 2023-09-03 00-12-02](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/2f435c7d-91cb-4d83-bdcb-80940c283df8)
+
+- synth -top multiple_modules to set it as top module
+![Screenshot from 2023-08-31 17-00-56](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/9aa69c10-2eb2-4e36-9ed4-6d968dd9dbe3)
+
+- To view the netlist show multiple_modules
+![Screenshot from 2023-08-31 17-07-00](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/4f47333f-1504-49d5-80b3-b0560628e863)
+
+- !gvim multiple_modules_hier.v
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/5c9256a2-06bf-4995-bd38-1437ba883b46">
+
+- **Flattened Synthesis** - Flattened synthesis is the opposite of hierarchical synthesis. Instead of maintaining the hierarchical structure of the design during synthesis, flattened synthesis combines all modules and sub-modules into a single, flat representation
+- netlist
+![Screenshot from 2023-08-31 22-52-05](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/77fb4ea3-6af6-464a-9c77-611624e3da5d)
+
+- !gvim multiple_modules_flat.v
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/87e0ba3b-156a-41cb-bc54-8f93e8f9ab60">
+
+- **Sub Module level Synthesis** - Sub-module level synthesis is preferred when there are multiple instances of same module. Sythesizing the same module over several times may not be advantageous with respect to time. Instead, synthsis can be performed for one module, its netlist can be replicated and then stitched together in the top module. This is also used particulary in massive designs using divide and conquer method.
+
+- Statistics
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/1bd7dda1-37e5-43f3-8854-ae3f4f9b5626">
+
+- Netlist
+![Screenshot from 2023-08-31 22-57-05](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/869f01d5-08e5-4ca3-b8ea-226c390c15ec)
+
+</details>
+
+## Various Flop Coding Styles and Optimization
+
+<details>
+<summary>Why Flops and Flop Coding Styles</summary>
+
+**Why do we need a Flop?** 
+- A flip-flop (often abbreviated as "flop") is a fundamental building block in digital circuit design.
+- It's a type of sequential logic element that stores binary information (0 or 1) and can change its output based on clock signals and input values.
+- In a combinational circuit, the output changes after the propagation delay of the circuit once inputs are changed.
+- During the propagation of data, if there are different paths with different propagation delays, then a glitch might occur.
+- There will be multiple glitches for multiple combinational circuits.
+- Hence, we need flops to store the data from the combinational circuits.
+
+**D Flip-Flop with Asynchronous Reset** 
+-  When the reset is high, the output of the flip-flop is forced to 0, irrespective of the clock signal.
+-  Else, on the positive edge of the clock, the stored value is updated at the output.
+  
++ `gvim dff_asyncres_syncres.v`
+![Screenshot from 2023-09-03 00-31-46](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/e7fc9b45-1e8c-4338-a2c4-20fec9f47250)
+
+**D Flip_Flop with Asynchronous Set** 
+-  When the set is high, the output of the flip-flop is forced to 1, irrespective of the clock signal.
+-  Else, on positive edge of the clock, the stored value is updated at the output.
+  
++ `gvim dff_async_set.v`
+![Screenshot from 2023-09-03 00-30-21](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/ad00e3d7-c6ca-4ef3-ac1f-63e6de402ebc)
 
 
+**D Flip-Flop with Synchronous Reset** 
+-  When the reset is high on the positive edge of the clock, the output of the flip-flop is forced to 0.
+-  Else, on the positive edge of the clock, the stored value is updated at the output.
+  
++ `gvim dff_syncres.v` 
+![Screenshot from 2023-09-03 00-29-37](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/246ff733-1c02-411d-abd7-4a3d36e97997)
+
+**D Flip-Flop with Asynchronous Reset and Synchronous Reset** 
+-  When the asynchronous resest is high, the output is forced to 0.
+-  When the synchronous reset is high at the positive edge of the clock, the output is forced to 0.
+-  Else, on the positive edge of the clock, the stored value is updated at the output.
+-  Here, it is a combination of both synchronous and asynchronous reset DFF.
+
++ `gvim dff_asyncres_syncres.v`
+![Screenshot from 2023-09-03 00-31-46](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/e7fc9b45-1e8c-4338-a2c4-20fec9f47250)
+
+</details>
 
 
+<details>
+<summary>Lab Flop Synthesis Simulations </summary>
+
+**D Flip-Flop with Asynchronous Reset** 
+-  Simulation
+![Screenshot from 2023-09-01 00-20-39](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/603c6fc1-1e97-4ceb-bc83-6f4388989cb3)
+
+-  Synthesis
+![Screenshot from 2023-09-01 16-04-19](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/5d0a2e0f-0301-4d2a-ae20-728967cb8332)
 
 
+**D Flip_Flop with Asynchronous Set** 
+-  Simulation
+![Screenshot from 2023-09-01 00-22-47](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/1dee7cfb-c266-4fe1-b36e-026ede2af219)
+
+-  Synthesis
+![Screenshot from 2023-09-01 16-08-37](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/2ec656eb-8331-4fe4-a7b0-156da5a88628)
 
 
+**D Flip-Flop with Synchronous Reset** 
+-  Simulation
+![Screenshot from 2023-09-01 00-24-55](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/78964629-5516-4620-94cb-ef5e79f2bda6)
+
+-  Synthesis
+![Screenshot from 2023-09-01 16-10-31](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/38b18137-91a4-41be-98ef-efc46004bffb)
+
+</details>
 
 
+<details>
+<summary>Interesting optimisations </summary>
 
+**mult_2** 
+-  gvim mult_2.v
+![Screenshot from 2023-09-03 00-47-47](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/a2ca75c8-4f7f-4af1-a849-eefbad97ec6e)
 
+-  Statistics
+![Screenshot from 2023-09-01 22-45-29](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/8d8e38b4-7d19-489f-a09e-2bde43131abc)
 
+-  Netlist
+
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/7e3ba671-c5ef-4bcb-aac6-7ab95b02c87e">
+
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/6ff861d3-adc6-4488-9d97-0cd65eb049e5">
+
+**mult_8** 
+-  gvim mult_8.v
+
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/1c87e450-e8e8-45fd-8171-38e3f9f83e6c">
+
+-  Statistics
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/a347f5ad-b9d2-445e-acd2-f14c68b4d835">
+
+-  Netlist
+  
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/e4cde78b-26c5-4d28-a23f-4dd6bbf435c9">
+
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/8c1d0c7e-3da1-4ff2-91fd-bb75fc88eabd">
+
+</details>
