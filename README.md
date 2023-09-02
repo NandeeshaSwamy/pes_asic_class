@@ -10,23 +10,23 @@ The objective of VLSI (Very Large Scale Integration) physical design for ASICs (
 + clock Tree Synthesis
 + Routing
 
-# INSTALLATION
+## INSTALLATION
 https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/run.sh
 + Download the run.sh
 + Open terminal
 + cd Downloads
 + ./run.sh
   
-# COURSE CONTENT COVERAGE
+## COURSE CONTENT COVERAGE
 <details>
-## DAY 1 
+<summary>DAY 1</summary> 
 <details>
 
 <details>
 <summary>Theory<summary>
 <details>
 
-Introduction to Basic Keywords
+## Introduction to Basic Keywords
 	
 - **ISA (Instruction Set Archhitecture)**
   - ISA defines the interface between a computer's hardware and its software, specifically how the processor and its components interact with the software instructions that drive the execution of tasks.
