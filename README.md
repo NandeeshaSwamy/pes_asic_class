@@ -643,6 +643,7 @@ this would generate object file `1to9_custom.o`.
 <img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/1c87e450-e8e8-45fd-8171-38e3f9f83e6c">
 
 -  Statistics
+
 <img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/a347f5ad-b9d2-445e-acd2-f14c68b4d835">
 
 -  Netlist
