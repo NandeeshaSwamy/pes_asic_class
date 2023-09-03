@@ -752,3 +752,152 @@ this would generate object file `1to9_custom.o`.
 </details>
 
 
+## Sequential Logic Optimisations
+
+<details>
+<summary> dff_const1 </summary>
+	
+-  gvim dff_const1.v
+  
+![Screenshot from 2023-09-03 11-14-43](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/d980a6ae-4aeb-4ea8-a4bb-f3d048610e11)
+
+-  Simulation
+
+![Screenshot from 2023-09-03 11-19-16](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/c09ace95-a308-47c6-a6ce-412a3691dd8e)
+
+-  Statistics
+  
+![Screenshot from 2023-09-03 11-23-38](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/a791c85d-9ca0-48b8-a93d-6ef082e2e253)
+
+-  Netlist
+
+![Screenshot from 2023-09-03 11-25-04](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/e69199fa-f3fd-40e7-ab26-9ad819715b57)
+
+</details>
+
+<details>
+<summary> dff_const2 </summary>
+	
+-  gvim dff_const2.v
+  
+![Screenshot from 2023-09-03 11-14-48](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/8fe7b164-b0bb-49f8-933a-5ae8949f29b7)
+
+-  Simulation
+
+![Screenshot from 2023-09-03 11-21-22](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/a969ce49-7a3e-4a0f-ba0c-1a023a0de216)
+
+-  Statistics
+  
+![Screenshot from 2023-09-03 11-27-21](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/0d11d078-7465-4439-9367-bcdc306fa007)
+
+-  Netlist
+
+![Screenshot from 2023-09-03 11-27-43](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/783a623a-1dd6-4c5b-a552-708ce7c88d76)
+
+</details>
+
+
+
+<details>
+<summary> dff_const3 </summary>
+	
+-  gvim dff-const3.v
+  
+![Screenshot from 2023-09-03 11-14-57](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/3b2bd556-16ae-4da4-ae0f-9ca9672e72e3)
+
+-  Simulation
+
+![Screenshot from 2023-09-03 11-35-03](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/f17a00a6-acc0-402e-98c6-e1932273afbe)
+
+-  Statistics
+  
+![Screenshot from 2023-09-03 11-29-39](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/3e894d39-e9c2-448a-ae2e-87ab281a49bc)
+
+-  Netlist
+
+![Screenshot from 2023-09-03 11-32-28](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/17584892-fd61-4273-8502-dd41bd8bfcb6)
+
+</details>
+
+
+<details>
+<summary> dff_const4 </summary>
+	
+-  gvim dff_const4.v
+  
+![Screenshot from 2023-09-03 11-15-03](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/8dd06a08-6779-4446-86da-dd2feefb7c56)
+
+-  Simulation
+
+![Screenshot from 2023-09-03 11-53-23](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/0a8fd494-efd1-4af5-bd1e-cb5094b28304)
+
+-  Statistics
+  
+![Screenshot from 2023-09-03 11-56-32](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/a70f90a5-9679-42d3-ada6-20f4e95db526)
+
+-  Netlist
+
+![Screenshot from 2023-09-03 11-55-38](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/23686b31-8f01-4f1d-bda5-4ca4f0289b00)
+
+</details>
+
+
+<details>
+<summary> dff_const5 </summary>
+	
+-  gvim dff_const5.v
+
+![Screenshot from 2023-09-03 11-15-21](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/143544ea-cc1f-41df-9ae9-1fda8e16955a)
+
+
+-  Simulation
+
+![Screenshot from 2023-09-03 11-54-15](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/ac81f8ce-20ed-4b6b-8a3b-3d20dab7884f)
+
+-  Statistics
+  
+![Screenshot from 2023-09-03 11-56-48](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/3872bc35-8dd2-4002-93a6-3a944eaea513)
+
+-  Netlist
+
+![Screenshot from 2023-09-03 11-57-32](https://github.com/NandeeshaSwamy/pes_asic_class/assets/135755149/e927ab71-cb98-4fa9-9bf6-1471e0952421)
+
+</details>
+
+## Sequential Optimisations for Unused Outputs
+
+<details>
+<summary> counter_opt </summary>
+	
+-  gvim counter_opt.v
+  
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/9869250b-d8b6-4b58-930c-b4a7bab31c27">
+
+-  Statistics
+  
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/6cbe7b44-d6eb-4bd9-86cf-ba63d362ae2f">
+
+-  Netlist
+
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/8a74443f-c492-4c6b-b354-45fcd416bdfc">
+
+</details>
+
+
+<details>
+<summary> counter_opt2 </summary>
+	
+-  gvim counter_opt2.v
+  
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/771a532b-2363-4e04-bb7c-402352913348">
+
+-  Statistics
+  
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/487f3e7e-8df4-4d4c-a457-ce983a5544d5">
+
+-  Netlist
+
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/ba5bc039-54cb-440e-94d4-0f2be4eda2d2">
+
+</details>
+
